@@ -11,9 +11,9 @@ from pathlib import Path
 st.set_page_config(layout="wide")
 
 # load dataset
-path_aspect  = Path(__file__).parents[1] / 'dataset/aspect_labelled.csv'
-path_dashboard  = Path(__file__).parents[1] / 'dataset/new_dashboard.csv'
-path_keywords  = Path(__file__).parents[1] / 'dataset/keywords.xlsx'
+path_aspect  = Path(__file__).parents[1] / 'dashboard/dataset/aspect_labelled.csv'
+path_dashboard  = Path(__file__).parents[1] / 'dashboard/dataset/new_dashboard.csv'
+path_keywords  = Path(__file__).parents[1] / 'dashboard/dataset/keywords.xlsx'
 
 
 df_aspect = pd.read_csv(path_aspect)
