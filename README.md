@@ -30,7 +30,7 @@ An **SVM (Support Vector Machine)** model was trained on the extracted features 
 In addition to general sentiment analysis, we performed aspect-based filtering using keywords related to various aspects (Attraction, Image, Human Resource, Amenities, Accessibility, Price). These keywords were validated by an expert in tourism studies to ensure accuracy in categorizing sentiments specific to each aspect.
 
 ## Results & Visualization
-The results of the sentiment analysis, including visualizations, can be found [here](#). These visualizations help provide a clear understanding of the overall sentiment distribution and tourist satisfaction for different aspects of the temple.
+The results of the sentiment analysis, including visualizations, can be found [here](#https://borobudursa.streamlit.app/). These visualizations help provide a clear understanding of the overall sentiment distribution and tourist satisfaction for different aspects of the temple.
 
 ## Research Details
 For a more detailed explanation of the methodology, results, and conclusions, you can refer to the full thesis document available at the following link: [http://repository.upi.edu/id/eprint/122805](http://repository.upi.edu/id/eprint/122805)
