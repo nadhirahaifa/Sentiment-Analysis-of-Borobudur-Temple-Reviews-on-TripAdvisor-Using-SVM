@@ -6,7 +6,7 @@ This repository contains the code and data for my bachelor thesis on sentiment a
 This project focuses on performing sentiment analysis on user reviews of Borobudur Temple collected from TripAdvisor. The sentiment classification uses SVM to categorize reviews into positive, negative, or neutral sentiments. We also include aspect-based sentiment analysis to understand different facets of tourism experiences by filtering specific aspects using expert-validated keywords.
 
 ## Data Collection
-The data was scraped from the [TripAdvisor Borobudur Temple page](https://www.tripadvisor.com/Attraction_Review-g790291-d320054-Reviews-Borobudur_Temple-Borobudur_Magelang_Central_Java_Java.html) on **24 May 2024**. Only English-language reviews were collected for analysis to evaluate tourist perceptions and satisfaction levels.
+The data was scraped from the [TripAdvisor Borobudur Temple](https://www.tripadvisor.com/Attraction_Review-g790291-d320054-Reviews-Borobudur_Temple-Borobudur_Magelang_Central_Java_Java.html) page on **24 May 2024**. Only English-language reviews were collected for analysis to evaluate tourist perceptions and satisfaction levels.
 
 
 ## Text Preprocessing
@@ -30,7 +30,7 @@ An **SVM (Support Vector Machine)** model was trained on the extracted features 
 In addition to general sentiment analysis, we performed aspect-based filtering using keywords related to various aspects (Attraction, Image, Human Resource, Amenities, Accessibility, Price). These keywords were validated by an expert in tourism studies to ensure accuracy in categorizing sentiments specific to each aspect.
 
 ## Results & Visualization
-The results of the sentiment analysis, including visualizations, can be found [here](#https://borobudursa.streamlit.app/). These visualizations help provide a clear understanding of the overall sentiment distribution and tourist satisfaction for different aspects of the temple.
+The results of the sentiment analysis, along with visualizations, are available on this [Streamlit app](https://borobudursa.streamlit.app/). These visualizations offer a clear view of the overall sentiment distribution and tourist satisfaction for various aspects of the temple.
 
 ## Research Details
 For a more detailed explanation of the methodology, results, and conclusions, you can refer to the full thesis document available at the following link: [http://repository.upi.edu/id/eprint/122805](http://repository.upi.edu/id/eprint/122805)
