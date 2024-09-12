@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import plotly.express as px
 import operator
-import tkinter
 
 # define the layout of the dashboard
 st.set_page_config(layout="wide")
