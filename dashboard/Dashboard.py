@@ -4,14 +4,15 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import plotly.express as px
 import operator
+import os
 
 # define the layout of the dashboard
 st.set_page_config(layout="wide")
 
 # load dataset
-df_aspect = pd.read_csv('dataset/aspect_labelled.csv')
-df_dashboard = pd.read_csv('dataset/new_dashboard.csv')
-df_keywords = pd.read_excel('dataset/keywords.xlsx')
+df_aspect = pd.read_csv(os.path.join(os.getcwd(), 'dataset/aspect_labelled.csv'))
+df_dashboard = pd.read_csv(os.path.join(os.getcwd(), 'dataset/new_dashboard.csv'))
+df_keywords = pd.read_excel(os.path.join(os.getcwd(), 'dataset/keywords.xlsx'))
 
 # modified value in df_aspect['label'] column
 df_aspect['label'] = df_aspect['label'].replace({1: 'positive', 0: 'neutral', -1: 'negative'})
